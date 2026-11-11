@@ -124,7 +124,7 @@ show interfaces trunk
 
 **Проверка усиленной конфигурации:**
 
-![VLAN hardened configuration](screenshots/vlan/vlan-hardned-config-and-verification.png)
+![VLAN hardened configuration](screenshots/vlan/vlan-hardened-config-and-verification.png)
 
 ### 3.6. Результат
 
@@ -304,7 +304,6 @@ interface FastEthernet0/0
  ip ospf message-digest-key 1 md5 <KEY>
 ```
 
-Значение ключа в документации намеренно не приводится.
 
 Проверка выполнена с помощью:
 
